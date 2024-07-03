@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#CFB4FF"
+    tools:context=".FragmentPuzzle">
+
+    <!-- TODO: Update blank fragment layout -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:textAlignment="center"
+            android:textSize="40sp"
+            android:textStyle="bold"
+            android:textColor="@color/white"
+            android:layout_height="wrap_content"
+            android:text="Puzzle" />
+
+        <GridLayout
+            android:id="@+id/gridLayout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:rowCount="3"
+            android:columnCount="3"
+            android:layout_gravity="center"
+            android:padding="16dp"
+            android:alignmentMode="alignBounds"
+            android:layout_margin="10dp"
+            android:background="@drawable/grid_background"
+            android:useDefaultMargins="true">
+        </GridLayout>
+
+    </LinearLayout>
+
+</FrameLayout>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+    <solid android:color="#570265"/> <!-- Background color for empty space -->
+    <corners android:radius="0dp"/> <!-- Rounded corners -->
+    <stroke android:width="10dp" android:color="#570265"/> <!-- Grid border color -->
+</shape>
